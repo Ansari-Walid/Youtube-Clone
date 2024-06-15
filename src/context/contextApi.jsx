@@ -5,7 +5,7 @@ export const Context = createContext();
 
 export const ApiContext = (props) => {
   const [loading, setLoading] = useState(false);
-  const [searchResults, setSearchResults] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
   const [categories, setCategories] = useState("New");
   const [mobileMenu, setMobileMenu] = useState(false);
 
@@ -15,9 +15,9 @@ export const ApiContext = (props) => {
 
   const fetchCategoryData = (query) => {
     setLoading(true);
-    fetchDataFromApi(`search/?q=${query}`).then((res) => {
-      console.log(res);
-      searchResults(res);
+    fetchDataFromApi(`search/?q=${query}`).then(({ contents }) => {
+      console.log(contents);
+      setSearchResults(contents);
       setLoading(false);
     });
   };

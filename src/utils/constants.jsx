@@ -1,4 +1,4 @@
-// Importing Icons From react-icons
+import React from "react";
 
 import { AiFillHome, AiOutlineFlag } from "react-icons/ai";
 import { MdLocalFireDepartment, MdLiveTv } from "react-icons/md";
@@ -10,7 +10,7 @@ import { GiDiamondTrophy, GiEclipse } from "react-icons/gi";
 import { RiLightbulbLine, RiFeedbackLine } from "react-icons/ri";
 import { FiSettings, FiHelpCircle } from "react-icons/fi";
 
-export const categories = [
+export const categoryList = [
   { name: "New", icon: <AiFillHome />, type: "home" },
   { name: "Trending", icon: <MdLocalFireDepartment />, type: "category" },
   { name: "Music", icon: <CgMusicNote />, type: "category" },
@@ -21,7 +21,7 @@ export const categories = [
   { name: "Sports", icon: <GiDiamondTrophy />, type: "category" },
   { name: "Learning", icon: <RiLightbulbLine />, type: "category" },
   {
-    name: "Fashion & Beauty",
+    name: "Fashion & beauty",
     icon: <GiEclipse />,
     type: "category",
     divider: true,
@@ -29,5 +29,5 @@ export const categories = [
   { name: "Settings", icon: <FiSettings />, type: "menu" },
   { name: "Report History", icon: <AiOutlineFlag />, type: "menu" },
   { name: "Help", icon: <FiHelpCircle />, type: "menu" },
-  { name: "Send FeedBack", icon: <RiFeedbackLine />, type: "menu" },
+  { name: "Send feedback", icon: <RiFeedbackLine />, type: "menu" },
 ];
