@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Feed from "./components/Feed";
 import SearchResults from "./components/SearchResults";
-import VideoDetails from "./components/videodetails";
+import VideoDetails from "./components/VideoDetails";
 import { ApiContext } from "./context/contextApi";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
