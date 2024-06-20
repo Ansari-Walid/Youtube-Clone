@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
         env.REACT_APP_YOUTUBE_API_KEY
       ),
     },
+    base: "/Youtube-Clone/",
     plugins: [react()],
   };
 });
