@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir: "dist",
     },
-    base: "/",
+    base: "/Youtube-Clone/",
     define: {
       "process.env.REACT_APP_YOUTUBE_API_KEY": JSON.stringify(
         env.REACT_APP_YOUTUBE_API_KEY
