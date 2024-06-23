@@ -5,7 +5,10 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
-    base: "https://Ansari-Walid.github.io/Youtube-Clone/",
+    build: {
+      outDir: "dist",
+    },
+    base: "/",
     define: {
       "process.env.REACT_APP_YOUTUBE_API_KEY": JSON.stringify(
         env.REACT_APP_YOUTUBE_API_KEY
