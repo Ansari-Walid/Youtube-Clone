@@ -7,7 +7,7 @@ import { abbreviateNumber } from "js-abbreviation-number";
 
 import { fetchDataFromApi } from "../utils/api.jsx";
 import { Context } from "../context/contextApi.jsx";
-import SuggestionVideoCard from "./SuggestionV.jsx";
+import SuggestionVideoCard from "./SuggestionVideoCard .jsx";
 
 const VideoDetails = () => {
   const [video, setVideo] = useState();
