@@ -5,9 +5,9 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 import { AiOutlineLike } from "react-icons/ai";
 import { abbreviateNumber } from "js-abbreviation-number";
 
-import { fetchDataFromApi } from "../utils/api";
-import { Context } from "../context/contextApi";
-import SuggestionVideoCard from "./SuggestionVideoCard ";
+import { fetchDataFromApi } from "../utils/api.jsx";
+import { Context } from "../context/contextApi.jsx";
+import SuggestionVideoCard from "./SuggestionV.jsx";
 
 const VideoDetails = () => {
   const [video, setVideo] = useState();

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 BsFillCheckCircleFill;
 
-import VideoLength from "../shared/VideoLength";
+import VideoLength from "../shared/VideoLength.jsx";
 
 const SuggestionVideoCard = ({ video }) => {
   return (

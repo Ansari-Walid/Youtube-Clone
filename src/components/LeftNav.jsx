@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { Context } from "../context/contextApi";
+import { Context } from "../context/contextApi.jsx";
 
 import { useNavigate } from "react-router-dom";
-import { categoryList } from "../utils/constants";
+import { categoryList } from "../utils/constants.jsx";
 
-import LeftNavMenuItem from "./LeftNavMenuItem";
+import LeftNavMenuItem from "./LeftNavMenuItem.jsx";
 
 const LeftNav = () => {
   const { categories, setCategories, mobileMenu } = useContext(Context);

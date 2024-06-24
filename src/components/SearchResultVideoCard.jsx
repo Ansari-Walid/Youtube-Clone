@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
-import VideoLength from "../shared/VideoLength";
+import VideoLength from "../shared/VideoLength.jsx";
 
 const SearchResultVideoCard = ({ video }) => {
   return (

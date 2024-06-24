@@ -1,10 +1,10 @@
 import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 
-import { fetchDataFromApi } from "../utils/api";
-import { Context } from "../context/contextApi";
-import LeftNav from "./LeftNav";
-import SearchResultVideoCard from "./SearchResultVideoCard";
+import { fetchDataFromApi } from "../utils/api.jsx";
+import { Context } from "../context/contextApi.jsx";
+import LeftNav from "./LeftNav.jsx";
+import SearchResultVideoCard from "./SearchResultVideoCard.jsx";
 
 const SearchResults = () => {
   const [results, setResults] = useState();

@@ -1,7 +1,7 @@
 import { abbreviateNumber } from "js-abbreviation-number";
 import { Link } from "react-router-dom";
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import VideoLength from "../shared/VideoLength";
+import VideoLength from "../shared/VideoLength.jsx";
 
 const VideoCard = ({ video }) => {
   return (

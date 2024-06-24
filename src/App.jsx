@@ -1,8 +1,8 @@
-import Header from "./components/Header";
-import Feed from "./components/Feed";
-import SearchResults from "./components/SearchResults";
-import VideoDetails from "./components/VideoDetails";
-import { ApiContext } from "./context/contextApi";
+import Header from "./components/Header.jsx";
+import Feed from "./components/Feed.jsx";
+import SearchResults from "./components/SearchResults.jsx";
+import VideoDetails from "./components/VideoDetails.jsx";
+import { ApiContext } from "./context/contextApi.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
